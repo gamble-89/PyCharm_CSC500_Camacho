@@ -1,4 +1,4 @@
-# Below is a program that calculates the total amount of a meal purchased at a restaurant
+# This is a program that calculates the total amount of a meal purchased at a restaurant
 # The program must perform the below three items:
 # Ask the user to input total food charge
 # Calculate the tip and tax based on pre-defined rates
