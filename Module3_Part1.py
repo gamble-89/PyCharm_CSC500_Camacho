@@ -5,13 +5,14 @@
 # Calculate these totals and display all values
 
 
-# float input needed to ask user for total net charges
+# prompt user for float input needed for total net charges
 total_food_charge = float(input("Enter the charge for the food: $"))
 
 # declaring variables for tip/tax
 tip_rate = 0.18
 sales_tax = 0.07
 
+# declaring variables for total tip and sales tax
 tip_total = total_food_charge * tip_rate
 sales_tax_total = total_food_charge * sales_tax
 
