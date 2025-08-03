@@ -6,7 +6,7 @@
 time_now = int(input("Enter the current time (in hours, 0-23): "))
 hours_to_wait = int(input("Enter the number of hours to wait for the alarm (in hours, 0-23): "))
 
-# Define total hours and calculate the future time
+# Define total hours and calculate the future time after waiting
 total_hours = (time_now + hours_to_wait) % 24
 
 # Output the result on a 24-hour clock
