@@ -12,3 +12,5 @@ total_hours = (time_now + hours_to_wait) % 24
 # Output the result on a 24-hour clock
 print(f"\nThe time when the alarm goes off will be: {total_hours}00")
 
+# End of the program
+

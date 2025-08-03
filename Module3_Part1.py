@@ -25,3 +25,5 @@ print(f"18% Tip: ${tip_total:.2f}")
 print(f"7% Sales Tax: ${sales_tax_total:.2f}")
 print(f"Total Price: ${total_price:.2f}")
 
+# End of the program
+
