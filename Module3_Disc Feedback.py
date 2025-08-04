@@ -14,3 +14,4 @@ avg_steps = sum(day[1] for day in fitness_data_stats) / len(fitness_data_stats)
 total_miles = sum(day[2] for day in fitness_data_stats)
 print(f"Average steps: {avg_steps:.2f}")
 print(f"Total miles ran: {total_miles:.2f}")
+
