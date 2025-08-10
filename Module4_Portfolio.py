@@ -21,16 +21,18 @@ if __name__ == "__main__":
     # Item 1
     item1 = ItemToPurchase()
     print("Item 1")
-    item1.item_name = input("Enter the item name: ")
-    item1.item_price = float(input("Enter the item price: "))
-    item1.item_quantity = int(input("Enter the item quantity: "))
+    # Minor error handling included in user prompt
+    item1.item_name = input("Enter the item name (Letters a-z Only): ")
+    item1.item_price = float(input("Enter the item price (0-2 Decimal Format Only E.g. 14.75): "))
+    item1.item_quantity = int(input("Enter the item quantity (0 Decimal Format Only E.g. 15): "))
 
     # Item 2
     item2 = ItemToPurchase()
     print("Item 2")
-    item2.item_name = input("Enter the item name: ")
-    item2.item_price = float(input("Enter the item price: "))
-    item2.item_quantity = int(input("Enter the item quantity: "))
+    # Minor error handling included in user prompt
+    item2.item_name = input("Enter the item name (Letters a-z Only): ")
+    item2.item_price = float(input("Enter the item price (0-2 Decimal Format Only E.g. 14.75): "))
+    item2.item_quantity = int(input("Enter the item quantity (0 Decimal Format Only E.g. 15): "))
 
     # Add the costs of the two items together and output the total cost
     print("\nTOTAL COST")
